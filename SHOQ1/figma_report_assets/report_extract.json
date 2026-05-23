@@ -1,0 +1,970 @@
+{
+  "items": [
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "UNIVERSITETI I PRISHTINËSFakulteti i Shkencave Matematike dhe Natyrore"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Dept: Matematikë | Programi: Shkencë Kompjuterike"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "RAPORTI 1 (KICKOFF REPORT)Projekti Semestral – UX/UI Design"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Përzgjedhja e problemit/domenit, ideja fillestare, përdoruesit dhe stakeholders, scope dhe planifikimi"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Lënda (Course):",
+          "UX/UI Design"
+        ],
+        [
+          "Ligjëruesi (Instructor):",
+          "Korab Rrmoku"
+        ],
+        [
+          "Viti akademik:",
+          "2025/2026"
+        ],
+        [
+          "Grupi / Ekipi:",
+          "PrimeTek"
+        ],
+        [
+          "Anëtarët:",
+          "Nart Grapci, Emral Ramadani, Elmedin Begolli, Era Berkolli, Agon Azemi"
+        ],
+        [
+          "Data e dorëzimit:",
+          "[30/03/2026]"
+        ],
+        [
+          "Versioni:",
+          "v0.1"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Udhëzim: Ky raport synon të konfirmojë se problemi është real, përdoruesit janë të përcaktuar, dhe plani i punës është i matshëm para se të filloni wireframes/prototipin."
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "1. Informacion bazë"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Plotësoni fushat bazë dhe rolet fillestare të ekipit (Research, UI, Prototype, Documentation)."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Fusha",
+          "Vlera"
+        ],
+        [
+          "Titulli i projektit",
+          "Ridizajni I Portalit Studentor (UBT)"
+        ],
+        [
+          "Ekipi (anëtarët)",
+          "Nart Grapci, Emeral Ramadani, Elmedin Begolli, Era Berkolli, Agon Azemi."
+        ],
+        [
+          "Rolet e propozuara",
+          "Research: Emral Ramadani, Elmedin BegolliUI Design: Era BerkolliPrototype Design: Agon AzemiDocumentation + Test Supervisor: Nart Grapci"
+        ],
+        [
+          "Platforma/vegla të planifikuara (p.sh. Figma)",
+          "Figma, Canva, Google Docs, Google Forms"
+        ],
+        [
+          "Link i repos/drive (nëse ka)",
+          "Nuk ka"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "2. Domeni dhe konteksti i problemit"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Përcaktoni domenin (p.sh. arsim, shëndetësi, fintech, e-commerce, transport, turizëm, administratë publike) dhe pse ka rëndësi."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Arsim (më saktësisht Menaxhimi I Informacionit Akademik të Studentave)."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "• Pse ky domen ka rëndësi (impakti, numri i përdoruesve, urgjenca)?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Ky domen ka rëndësi sepse përdoret nga një numër i madh studentësh në baza të rregullta gjatë gjithë semestrit. Studentëve u duhet të qasen shpejt dhe saktë në informacione esenciale, sidomos gjatë periudhave të provimeve, regjistrimit të lëndëve dhe publikimit të notave. Një sistem jo i qartë ose i vështirë për përdorim do të jep vetëm frustrim studentëve."
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "3. Problemi që zgjidhet (Problem Statement)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Shmangni formulime të tipit “duam aplikacion”. Përqendrohuni te vështirësia e përdoruesit dhe pasojat."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Model i rekomanduar:"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "“Përdoruesit [kush] kanë vështirësi të [çfarë] kur [konteksti], sepse [shkaku], gjë që shkakton [pasoja].”"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Problemi kryesor që zgjidhet lidhet me përvojën joefikase të studentëve gjatë përdorimit të uebfaqes së UBT-së. Shërbimet janë të shpërndara në disa platforma të ndryshme, gjë që krijon konfuzion dhe e bën të paqartë se ku duhet të drejtohet studenti për nota, provime, orar apo dokumente. Përveç kësaj, mungojnë udhëzimet e qarta dhe navigimi nuk është gjithmonë intuitiv. Kjo ndikon sidomos te studentët e rinj, të cilët mund ta kenë më të vështirë orientimin në sistem. Si rezultat, humbet kohë dhe ulet efikasiteti i përdorimit të shërbimeve studentore."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Kufizime (Out of scope në këtë fazë):"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "1. Nuk do të ndërtojë një backend plotësisht funksional"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "2. Nuk do të ketë zbatim të një sistemi të vërtetimit duke përdorur të dhënat e universitetit."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "3. Bazat e të dhënave të universitetit nuk do të integrohen në prototipin interaktiv."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "4. Projekti nuk do të fokusohet në zhvillimin e plotë teknik, por më tepër në UX/UI, strukturën e informacionit dhe prototipin interaktiv."
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "4. Ideja fillestare e zgjidhjes (Solution Hypothesis)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Shpjegoni çfarë do të ndërtoni (web/mobile/redesign), si e ul problemin, dhe cilat janë funksionalitetet bërthamë."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Krijimi i një platforme studentore më të bashkuar apo unifikuar, ku të gjitha shërbimet kryesore të jenë të përqendruara në një vend të vetëm dhe të organizuara në mënyrë më të qartë. Në vend që studenti të kalojë nga një platformë në tjetrën për nota, provime, orar, dokumente apo komunikim, sistemi do të ofronte një hyrje të vetme dhe një strukturë më intuitive të informacionit. Kjo zgjidhje do të përfshinte navigim më të thjeshtë, kategori të ndara qartë sipas funksionit dhe udhëzime të lehta për përdorim, në mënyrë që edhe studentët e rinj të orientohen pa vështirësi. Gjithashtu, do të ndihmonte në uljen e konfuzionit, kursimin e kohës dhe rritjen e efikasitetit gjatë kryerjes së detyrave akademike. Në këtë mënyrë, përvoja e studentit do të bëhej më e rregullt, më praktike dhe më e përshtatshme për nevojat e përditshme."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Funksionalitetet “Must-have” (3–5):"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "#",
+          "Funksionaliteti",
+          "Pse është i domosdoshëm",
+          "Prioriteti (H/M/L)"
+        ],
+        [
+          "1",
+          "Panel më i përsosur dhe i centralizuar (Dashboard",
+          "Kjo e zgjidh problemin e shpërndarjes së informacionit në faqe të ndryshme.",
+          "H"
+        ],
+        [
+          "2",
+          "Qasja në literaturën mësimore dhe materialet mësimore në linkun kryesorë të sistemit.",
+          "Studentët kanë nevojë për materiale mësimore të integruara në të njëjtin sistem për të shmangur kalimin nga një sistem në tjetrin.",
+          "H"
+        ],
+        [
+          "3",
+          "Asistent të aksueshmërisë",
+          "Ju mundëson të gjithë studentëve, (duke përfshirë ata me nevoja të veçanta) ta përdorin sistemin më lehtë, më qartë dhe pa pengesa.",
+          "M"
+        ],
+        [
+          "4",
+          "Dizajn modern dhe i pastër vizualisht",
+          "Një ndërfaqe më moderne, më e qartë dhe më tërheqëse e bën sistemin më të lehtë për përdorim.",
+          "M"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "5. Përdoruesit e synuar (Target Users)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Identifikoni 2–3 segmente përdoruesish. Për secilin: nevoja, motivimi, pain point dhe supozimet që duhen verifikuar."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Segmenti",
+          "Nevoja kryesore",
+          "Pain point",
+          "Supozime për verifikim"
+        ],
+        [
+          "Studentët",
+          "Qasje të shpejtë dhe të qartë në notat, provimet, dorëzimet e provimeve, literaturën dhe informacione të tjera akademike në një vend dhe jo të shpërndarë.",
+          "Informacioni dhe shërbimet janë të shpërndara në platforma të ndryshme, portali aktual i thjeshtë.",
+          "Studentët do ta përdornin më shpesh një sistem të centralizuar nëse të gjitha shërbimet kryesore do të ishin në një vend dhe me navigim më të qartë."
+        ],
+        [
+          "Stafi IT / Technical Support",
+          "Të mirëmbajnë një sistem më të organizuar, më të gjerë dhe i thjesht në menaxhimin teknik.",
+          "Sistemet e ndara dhe mirëmbajtje të komplikuar dhe të shpërndarë në websites të ndryshme.",
+          "Një platformë më e integruar do ta zvogëlonte kompleksitetin teknik, numrin e problemeve dhe kohën e nevojshme për mirëmbajtje dhe support."
+        ],
+        [
+          "Profesorët",
+          "Të kenë qasje të lehtë në një sistem ku mund të publikojnë nota, materiale mësimore, njoftime dhe informacione për lëndët në mënyrë të organizuar dhe të centralizuar.",
+          "Përdorimi i platformave të ndara dhe mungesa e një sistemi të centralizuar.",
+          "Profesorët do ta përdornin më lehtë dhe më rregullisht një platformë qendrore. Thjeshton publikimin e materialeve, notave dhe komunikimit me studentët, profesorave."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "6. Stakeholders potencial (Stakeholder Mapping)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Listoni palët e interesit: përdorues final, organizata/klienti, IT/mbështetja, menaxhmenti, regulatorë, partnerë. Vlerësoni ndikim dhe interes."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Stakeholder",
+          "Roli",
+          "Interesi (çfarë fiton)",
+          "Ndikimi (L/M/H)",
+          "Rrezik/Concern"
+        ],
+        [
+          "Studentët",
+          "Përdoruesit kryesor të sistemit",
+          "Qasje më të lehtë dhe të zgjeruar në, materiale dhe informacione akademike bashkë me funksionalitetet ekzisutese. Kursim kohe dhe përvojë më e mirë përdorimi",
+          "H",
+          "Ridizajnimi nuk mund ti zgjidh të gjithë nevojat e të përdoruesëve"
+        ],
+        [
+          "Universiteti / UBT",
+          "Organizata që e ofron sistemin",
+          "Përmirësim i cilësisë së shërbimit qe mund të ofrojnë për studenta, imazh më profesional dhe efikasitet më i mirë në komunikim në sistem.",
+          "H",
+          "Mund të ketë kufizime organizative ose prioritete të tjera që e bëjnë të vështirë implementimin e ndryshimeve"
+        ],
+        [
+          "Stafi administrativ",
+          "Menaxhon procese dhe informacione akademike",
+          "Një sistem më i qartë ul keqkuptimet dhe kërkesat e panevojshme nga studentët.",
+          "M",
+          "Nëse sistemi i ri nuk përputhet me rrjedhën ekzistuese të punës, mund të ketë kundërshtim ose vështirësi në përdorim"
+        ],
+        [
+          "IT / Technical Support",
+          "Mirëmban dhe mbështet teknikisht platformën",
+          "Strukturë më e organizuar, mirëmbajtje më e lehtë dhe e gjerë, më pak ankesa nga përdoruesit.",
+          "H",
+          "Integrimi i shumë funksioneve në një vend mund të kërkojë shumë punë teknike shtesë."
+        ],
+        [
+          "Profesorët",
+          "Përdoruesit sekondar të sistemit",
+          "Studentë më të informuar, më pak konfuzion rreth materialeve, provimeve dhe proceseve akademike. Qasje dhe përdorim më të lehtë të sistemit.",
+          "M",
+          "Nëse sistemi nuk paraqet saktë materialet ose informacionet e lëndës, mund të krijohen keqkuptime"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Opsionale: Shtoni një matricë 2x2 (Influence vs Interest) në Aneks si figurë."
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "7. Skenarë përdorimi (Use Cases) & User Stories"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Shkruani 2–3 skenarë realë “nga jeta” dhe 5–8 user stories (User Story)."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "7.1 Skenarë (Scenario):"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "#",
+          "Skenari",
+          "Hapat kryesorë (Happy path)",
+          "Pika ku ndodh problemi sot"
+        ],
+        [
+          "1",
+          "Paraqitja e provimeve",
+          "Studenti hyn në sistem, hap shërbimin përkatës, shkon te SMIS dhe bën paraqitjen të provimeve",
+          "UBT e ka regjistrimin e provimeve në SMIS, ndërsa informacione të tjera studentore gjenden edhe në sisteme të tjera; kjo e bën procesin më pak të centralizuar dhe mund të krijojë paqartësi se ku duhet të kryhet secili veprim."
+        ],
+        [
+          "2",
+          "Kontrollimi i notave dhe profilit akademik",
+          "Studenti hyn në sistem, hap platformën përkatëse dhe i kontrollon notat, rezultatet dhe të dhënat akademike",
+          "Mund shihet se notat, rezultatet, materialet dhe shërbimet studentore nuk paraqiten në një dashboard unik, por në platforma të ndara si SMIS, Moodle dhe portali/student services, gjë që mund ta bëjë më të vështirë orientimin."
+        ],
+        [
+          "3",
+          "Qasja në materiale mësimore dhe njoftime akademike",
+          "Hyn në Moodle, zgjedh lëndën dhe kontrollon materialet, njoftimet ose aktivitetet e lëndës",
+          "Moodle përdoret për materiale, vlerësim dhe komunikim akademik, por mbetet një sistem i ndarë nga SMIS dhe portali studentor; studenti duhet të dijë vetë se për cilin funksion duhet të përdorë cilën platformë."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "7.2 User Stories (format: “Si [rol], dua [qëllim], që të [përfitim]”):"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "#",
+          "User Story",
+          "Kriteret e pranimit (Acceptance Criteria)"
+        ],
+        [
+          "1",
+          "Donat“Kom dasht per ni program/drejtim me e kqyr struktruren e lendeve ama kur e klikojsha qat tab mbojke redirect ne blank page”-Si student, dua që me pas funksionalitet të rregullt website-i, që të jetë më i përdorueshëm dhe mos me më shkaktu frustrim.",
+          "Duhet të ketë një zhvillim më të përsosur të interface-it, por edhe të funksionalitetit, duke siguruar që butonat të jenë më të qartë, faqet të hapen pa probleme dhe përdoruesi të mos ridrejtohet në faqe bosh gjatë navigimit."
+        ],
+        [
+          "2",
+          "Dard “Ket semester per me hi ngrup kom pas problem se the website couldnt hold all of the students at oncea lot of errors as well and it looks horrible”Si student, dua që website-i të ketë serverë më stabil, më pak gabime dhe një pamje më të rregullt, që të mund ta përdor pa probleme dhe me përvojë më të mirë.",
+          "Sistemi duhet të përballojë numër më të madh studentësh njëkohësisht pa rënie të serverit, të ketë më pak gabime teknike dhe të ofrojë një pamje më moderne dhe më të rregullt vizualisht."
+        ],
+        [
+          "3",
+          "Eljesi”nuk o tum lan mi refuzu nja 2 nota”Si student, dua që website-i të reagojë saktë dhe shpejt, që t’i kryej funksionet e nevojshme pa pengesa.",
+          "Websiti duhet të ketë një strukturë më të qartë dhe më të thjeshtë për zgjedhjen e vitit, semestrit dhe lëndëve, në mënyrë që studenti t’i gjejë opsionet më shpejt dhe me më pak hapa."
+        ],
+        [
+          "4",
+          "Endrit S“Sistemi Moodle i ubt u kon shume i komplikut me thonSe per me hi me zgjedh londa qe je vwt u duhke me zgjedh vitin me zgjedh semestrin me zgjedh landen e prap me hi qatyDmth se ka pas ni pjes veq landet ma t'thjesht edhe pse u kon nfund krejt ama aty krejta londet e kur u bon 30 lond dej e gjesha qato qe mvyn u kon pldhWebsite ka pas problem sidomos kur u kon koha me zgjedh grupin e semestrin”Si student, dua që websiti të jetë më i qartë dhe me strukturë më të thjeshtë për zgjedhjen e vitit, semestrit dhe lëndëve, që ta gjej më shpejt atë që më duhet dhe ta përdor më lehtë sistemin.",
+          "Websiti duhet të ketë një strukturë më të qartë dhe më të thjeshtë për zgjedhjen e vitit, semestrit dhe lëndëve, në mënyrë që studenti t’i gjejë opsionet më shpejt edhe më pak hapa."
+        ],
+        [
+          "5",
+          "Dielli“psh Notification Une jom veq ne grupin 4b A mu mvijn notification tgr 5a ose tgrupit 5b Ose 4a edhe per problem in we e kena pas per grupe we Jon bo overload serverat buk kena pas error tqart me na tregu cka po ndodh”-Si student, dua që njoftimet të jenë të sakta vetëm për grupin tim dhe mesazhet e gabimit të jenë të qarta, që të marr vetëm informacionin relevant dhe ta kuptoj çfarë po ndodh kur ka problem në sistem.",
+          "Sistemi duhet të dërgojë njoftime vetëm për grupin përkatës të studentit dhe të shfaqë mesazhe të qarta gabimi kur ndodhin probleme, në mënyrë që përdoruesi të kuptojë saktë situatën."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "8. Kriteret e suksesit dhe metrikat (Success Metrics)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Përcaktoni si do ta matni cilësinë e dizajnit: kohë, gabime, completion rate, kënaqësi (1–5), dhe/ose SUS."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Metrika",
+          "Si matet",
+          "Target (objektivi)",
+          "Kur matet (javët)"
+        ],
+        [
+          "Koha për të gjetur notat",
+          "Matet sa sekonda i duhen studentit për ti gjetur notat",
+          "Nën 30 sekonda",
+          "Java 13"
+        ],
+        [
+          "Koha për të gjetur orarin/provimet",
+          "Testim me studentin ose matjen me kohës.",
+          "Nën 30 sekonda",
+          "Java 13"
+        ],
+        [
+          "Kënaqësia e përdoruesve",
+          "Vlerësim 1–5 pas testimit",
+          "Mbi ose =4/5",
+          "Java 13"
+        ],
+        [
+          "Completion rate për funksionet kryesore",
+          "% e përdoruesve që i kryejnë funksionet pa ndihmë",
+          "Mbi 85%",
+          "Java 13"
+        ],
+        [
+          "Qartësia e ndërfaqes",
+          "Pyetje në usability (survey)",
+          "Mbi ose =4/5",
+          "Java 13"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "9. Plani i hulumtimit (Research Plan)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Jepni plan minimal: p.sh. 5 intervista + 1 anketë e vogël. Përshkruani pjesëmarrësit dhe output-in (insights, themes, persona)."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Metoda (Method)",
+          "Pjesëmarrësit (kush)",
+          "Nr. i synuar",
+          "Qëllimi",
+          "Output"
+        ],
+        [
+          "Intervista",
+          "Student",
+          "5-6",
+          "Të kuptohen problemet aktuale dhe nevojat kryesore",
+          "Insights, pain points, temat kryesore"
+        ],
+        [
+          "Intervista",
+          "Profesor/Staf IT",
+          "2-3",
+          "Të kuptohen nevojat për publikim notash/materialesh dhe kufizimet teknike",
+          "Kërkesat dhe kufizimet funksionale të profesorëve dhe të stafit IT"
+        ],
+        [
+          "Anketë e vogël",
+          "Student",
+          "10",
+          "Të vlersohen problemet më të shpeshta",
+          "Dhëna sasiore, prioritete"
+        ],
+        [
+          "Usability testing me prototip",
+          "Student",
+          "5-6",
+          "Të testohet qartësia e navigimit dhe i dashboard-it",
+          "Probleme usability, përmirësime tek prototipit"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Draft pyetje për intervistë (6–10):"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 1: Cilat janë detyrat që i kryen më së shpeshti në portalin e studentëve?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 2: Cilat informacione i kërkon më shpesh dhe sa lehtë i gjen?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 3: A ki vështirësi kur kalon nga një sistem në tjetrin?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 4: A do të të ndihmonte një dashboard i centralizuar? Pse?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 5: Sa e qartë është ndërfaqja aktuale për ty?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 6: A ki humbur ndonjëherë njoftime, afate apo ndryshime të rëndësishme?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 7: Sa e rëndësishme është për ty qasja në materiale mësimore, orarit, regjistrimi në grupin përkatës, nga i njëjti sistem?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 8: A do të ishte një përmirësim i dobishëm shtimi i një asistenti për aksesueshmëri në sistem?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "☐ Pyetja 9: Sipas mendimit tuaj, çfarë do ta bënte sistemin më të lehtë për përdorim?"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Etika/Privatësia: Mos mblidhni të dhëna personale të panevojshme. Siguroni pëlqim (consent) dhe anonimizim kur raportoni rezultatet."
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "10. Analiza e konkurrencës / referencave"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Zgjidhni 2–3 zgjidhje ekzistuese (apps/web) dhe analizoni strengths/weaknesses. Shtoni 3–5 UI inspirations (si referencë)."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Produkt/Servis",
+          "Link",
+          "Çfarë bën mirë",
+          "Çfarë bën dobët",
+          "Ide për të marrë (jo kopjim)"
+        ],
+        [
+          "Moodle",
+          "moodle.org",
+          "Organizim i mirë (deri në një pikë)  i materialeve, lëndëve dhe detyrave",
+          "Mund të duket i rëndë dhe jo shumë modern vizualisht",
+          "Strukturë e qartë sipas lëndëve"
+        ],
+        [
+          "Google Classroom",
+          "classroom.google.com",
+          "I thjeshtë, i pastër dhe i lehtë për përdorim",
+          "Nuk është i ndërtuar për administratë universitare të plotë",
+          "Dizajn i pastër dhe rrjedhje e qartë e detyrave"
+        ],
+        [
+          "Canvas LMS",
+          "instructure.com/canvas",
+          "Dashboard i mirë, organizim i njoftimeve dhe aktiviteteve",
+          "Disa seksione të faqës duken të ngarkuara",
+          "Dashboard me prioritete dhe kalendar të integruar"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "11. Përfshirja (ang. Scope) dhe atifaktet (ang. Deliverable)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Definoni qartë çfarë përfshihet (In scope) dhe çfarë është jashtë (Out of scope). Pastaj listoni deliverables."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "11.1 In scope:"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Hulumtimi i problemeve aktuale të studentëve"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Krijimi i personave dhe user flows"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Information Architecture (IA)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Wireframes low-fi"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Prototype i dashboard-it"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Asistent të aksueshmërisë"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Një Webfaqe e centralizuar"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Usability testing dhe iterim"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "11.2 Out of scope:"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Implementimi komplet real i backend-it"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Integrimi teknik real me sistemet ekzistuese të UBT-së"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Zhvillimi i plotë i sistemit final"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Testim teknik i sigurisë ose i performancës së serverit"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Deliverable",
+          "Përshkrimi",
+          "Javët (target)"
+        ],
+        [
+          "Persona",
+          "Profile të përdoruesve kryesorë, të krijuara bazuar në të dhënat e mbledhura nga intervistat",
+          "Java 6"
+        ],
+        [
+          "Journey map / Task flow",
+          "Rrjedha e veprimeve të përdoruesve gjatë përdorimit të sistemit",
+          "Java 4"
+        ],
+        [
+          "Information Architecture (IA)",
+          "Struktura e përmbajtjes, faqeve dhe seksioneve kryesore të sistemit",
+          "Java 7"
+        ],
+        [
+          "Wireframes (low-fi)",
+          "Skica fillestare të faqeve kryesore të sistemit",
+          "Java 8-9"
+        ],
+        [
+          "Prototype (mid/high-fi)",
+          "Prototip interaktiv i sistemit, i ndërtuar mbi wireframes (low-fi)",
+          "Java 10"
+        ],
+        [
+          "Usability test + Iterim",
+          "Testim me përdorues dhe përmirësim i prototipit bazuar në feedback",
+          "Java 11-12"
+        ],
+        [
+          "Raport final + Prezantim",
+          "Dokumentimi final i projektit, posteri dhe prezantimi për dorëzim",
+          "Java 14-15"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "12. Rreziqet dhe supozimet"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Listoni rreziqet kryesore (p.sh. mungesë pjesëmarrësish), vlerësoni probabilitet/ndikim dhe masat për zbutje (mitigation)."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Rreziku",
+          "Prob. (L/M/H)",
+          "Ndikim (L/M/H)",
+          "Mitigation",
+          "Përgjegjësi"
+        ],
+        [
+          "Supozime josakta për nevojat reale të përdoruesve",
+          "L",
+          "H",
+          "Verifikim i saktë përmes intervistave, anketës dhe usability testing",
+          "Emral Ramadani + Elmedin Begolli"
+        ],
+        [
+          "Mungesë pjesëmarrësish për intervista dhe testim",
+          "M",
+          "H",
+          "Rekrutim i hershëm i pjesëmarrësve",
+          "Elmedin Begolli + Nart Grapci"
+        ],
+        [
+          "Ndryshime të vonshme në kërkesa ose prioritete",
+          "M",
+          "M",
+          "Iterime të vogla dhe validim i shpeshtë i prototipit.",
+          "Agon Azemi + Nart Grapci"
+        ],
+        [
+          "In-Scope shumë i madh",
+          "H",
+          "H",
+          "Përcaktim i qartë i pjesëve in-scope dhe prioritizim i funksioneve më të rëndësishme",
+          "Nart Grapci + Era Berkolli"
+        ],
+        [
+          "Qasje e kufizuar në informata të brendshme teknike të sistemit ekzistues",
+          "H",
+          "M",
+          "Mbështetje në hulumtim publik dhe intervista.",
+          "Emral Ramadani"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "13. Planifikimi (Timeline)"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "Planifikoni punën javë‑pas‑jave. Përdorni milestones të qarta (persona, wireframes, prototip, testim, iterim, final)."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Java",
+          "Aktivitetet kryesore",
+          "Output",
+          "Përgjegjësi"
+        ],
+        [
+          "1",
+          "Analizë më e detajuar i sistemit aktual",
+          "Lista e problemeve dhe nevojave kryesore",
+          "Emral Ramadani"
+        ],
+        [
+          "2",
+          "Përgatitja e planit të hulumtimit dhe pyetjeve për intervistë",
+          "Research plan + draft pyetjet",
+          "Emral Ramadani + Elmedin Begolli"
+        ],
+        [
+          "3",
+          "Zhvillimi i intervistave ose anketës me studentët dhe profesorat",
+          "Të dhëna fillestare nga studenti dhe profesori",
+          "Elmedin Begolli"
+        ],
+        [
+          "4",
+          "Analiza e rezultateve të hulumtimit + Krijimi i journey map / task flow",
+          "Insights dhe tema kryesore + Journey map / Task flow",
+          "Emral Ramadani + Elmedin Begolli"
+        ],
+        [
+          "5",
+          "Përcaktimi i kërkesave kryesore të sistemit nga rezultatet e hulumtimit dhe nga intervistat",
+          "Lista e kërkesave kryesore",
+          "Emral Ramadani + Elmedin Begolli"
+        ],
+        [
+          "6",
+          "Krijimi i personave (personas) bazuar në të dhënat e mbledhura",
+          "Persona të përdoruesve kryesorë",
+          "Elmedin Begolli"
+        ],
+        [
+          "7",
+          "Organizimi i përmbajtjes dhe strukturës së sistemit (IA)",
+          "Struktura e faqeve dhe seksioneve kryesore",
+          "Era Berkolli"
+        ],
+        [
+          "8",
+          "Skicimi i wireframes (low-fi)",
+          "Wireframes",
+          "Era Berkolli"
+        ],
+        [
+          "9",
+          "Përmirësimi i wireframes",
+          "Wireframes finale / strukturë më e qartë",
+          "Era Berkolli"
+        ],
+        [
+          "10",
+          "Krijimi i prototipit interaktiv (mid/high-fi)",
+          "Prototip",
+          "Agon Azemi"
+        ],
+        [
+          "11",
+          "Testimi i prototipit me studentin",
+          "Rezultatet e usability testing",
+          "Nart Grapci"
+        ],
+        [
+          "12",
+          "Iterimi i dizajnit sipas feedback-ut",
+          "Version i përmirësuar i prototipit",
+          "Agon Azemi"
+        ],
+        [
+          "13",
+          "Analiza finale e metrikave dhe vlerësimi i zgjidhjes",
+          "Metrikat + përfundimet",
+          "Nart Grapci"
+        ],
+        [
+          "14",
+          "Përgatitja e raportit final dhe posterit",
+          "Drafti final i raportit dhe i posterit",
+          "Nart Grapci"
+        ],
+        [
+          "15",
+          "Përgatitja e prezantimit dhe dorëzim",
+          "Prezantimi + dorëzimi final",
+          "Nart Grapci"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "14. Checklist para dorëzimit"
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Problemi është i qartë dhe i matshëm (jo “duam aplikacion”)."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Janë përcaktuar 2–3 segmente përdoruesish dhe supozimet për verifikim."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Stakeholders janë listuar me interes/ndikim dhe rreziqe të mundshme."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Ka 2–3 skenarë realë dhe 5–8 user stories me acceptance criteria."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Janë përcaktuar metrika suksesi (target + kur matet)."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Plani minimal i hulumtimit ka metoda, pjesëmarrës, nr. dhe output."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Analiza e konkurrencës ka të paktën 2–3 referenca."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Scope është realist dhe timeline është i plotë (javët 1–15)."
+    },
+    {
+      "type": "paragraph",
+      "style": "",
+      "text": "✓ Dokumenti është i strukturuar, me tabela të plota dhe pa boshllëqe."
+    },
+    {
+      "type": "paragraph",
+      "style": "Heading1",
+      "text": "15. Aneks (opsional):"
+    }
+  ],
+  "media": [
+    "C:\\Users\\emral\\Documents\\New project\\figma_report_assets\\image2.png",
+    "C:\\Users\\emral\\Documents\\New project\\figma_report_assets\\image4.jpg",
+    "C:\\Users\\emral\\Documents\\New project\\figma_report_assets\\image3.png",
+    "C:\\Users\\emral\\Documents\\New project\\figma_report_assets\\image1.png",
+    "C:\\Users\\emral\\Documents\\New project\\figma_report_assets\\image5.png"
+  ]
+}
